@@ -10,6 +10,7 @@ class Jdk < Formula
   # tag "linuxbrew"
 
   version "9.0.1+11"
+  version_scheme 1
   if OS.linux?
     url "http://download.oracle.com/otn-pub/java/jdk/9.0.1+11/jdk-9.0.1_linux-x64_bin.tar.gz",
       :using => JdkDownloadStrategy
